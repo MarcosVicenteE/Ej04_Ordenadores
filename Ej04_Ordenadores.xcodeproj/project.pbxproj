@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		96F326861B0CEAA00088AC37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F326851B0CEAA00088AC37 /* main.m */; };
+		96F3268F1B0CEABE0088AC37 /* Ordenador.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F3268E1B0CEABE0088AC37 /* Ordenador.m */; };
+		96F326941B0CECE20088AC37 /* Procesador.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F326931B0CECE20088AC37 /* Procesador.m */; };
+		96F326981B0CED5C0088AC37 /* DiscoDuro.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F326971B0CED5C0088AC37 /* DiscoDuro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		96F326821B0CEAA00088AC37 /* Ej04_Ordenadores */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ej04_Ordenadores; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F326851B0CEAA00088AC37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96F3268D1B0CEABE0088AC37 /* Ordenador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ordenador.h; sourceTree = "<group>"; };
+		96F3268E1B0CEABE0088AC37 /* Ordenador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ordenador.m; sourceTree = "<group>"; };
+		96F326921B0CECE20088AC37 /* Procesador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Procesador.h; sourceTree = "<group>"; };
+		96F326931B0CECE20088AC37 /* Procesador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Procesador.m; sourceTree = "<group>"; };
+		96F326961B0CED5C0088AC37 /* DiscoDuro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoDuro.h; sourceTree = "<group>"; };
+		96F326971B0CED5C0088AC37 /* DiscoDuro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoDuro.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +66,47 @@
 		96F326841B0CEAA00088AC37 /* Ej04_Ordenadores */ = {
 			isa = PBXGroup;
 			children = (
+				96F326901B0CEBFE0088AC37 /* Clases */,
 				96F326851B0CEAA00088AC37 /* main.m */,
 			);
 			path = Ej04_Ordenadores;
+			sourceTree = "<group>";
+		};
+		96F3268C1B0CEAAA0088AC37 /* Ordenador */ = {
+			isa = PBXGroup;
+			children = (
+				96F3268D1B0CEABE0088AC37 /* Ordenador.h */,
+				96F3268E1B0CEABE0088AC37 /* Ordenador.m */,
+			);
+			name = Ordenador;
+			sourceTree = "<group>";
+		};
+		96F326901B0CEBFE0088AC37 /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				96F326951B0CED450088AC37 /* DiscoDuro */,
+				96F326911B0CECCD0088AC37 /* procesador */,
+				96F3268C1B0CEAAA0088AC37 /* Ordenador */,
+			);
+			name = Clases;
+			sourceTree = "<group>";
+		};
+		96F326911B0CECCD0088AC37 /* procesador */ = {
+			isa = PBXGroup;
+			children = (
+				96F326921B0CECE20088AC37 /* Procesador.h */,
+				96F326931B0CECE20088AC37 /* Procesador.m */,
+			);
+			name = procesador;
+			sourceTree = "<group>";
+		};
+		96F326951B0CED450088AC37 /* DiscoDuro */ = {
+			isa = PBXGroup;
+			children = (
+				96F326961B0CED5C0088AC37 /* DiscoDuro.h */,
+				96F326971B0CED5C0088AC37 /* DiscoDuro.m */,
+			);
+			name = DiscoDuro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F3268F1B0CEABE0088AC37 /* Ordenador.m in Sources */,
 				96F326861B0CEAA00088AC37 /* main.m in Sources */,
+				96F326981B0CED5C0088AC37 /* DiscoDuro.m in Sources */,
+				96F326941B0CECE20088AC37 /* Procesador.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
